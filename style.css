@@ -1,0 +1,393 @@
+/*
+Theme Name: Fitness World
+Theme URI: http://fitnessworld.abdulquaiyum.com
+Author: Kazi IT Home
+Author URI: http://portfoliokazi.abdulquaiyum.com
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Fitness World is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: WordPress 4.9.6
+Version: 4.5
+
+Text Domain: fitnessworld
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Fitness World is based on Underscores https://underscores.me/, (C) 2019-2025 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+
+.main_menu .navbar {
+    padding: 0;
+}
+
+ul.sub-menu {
+       min-width: 130px;
+   display: none;
+    position: absolute;
+    background: #2B1C2D;
+    top: 0;
+    text-align: left;
+    border-radius: 5px;
+    transition: all 30s;
+           
+}
+ul.sub-menu li {
+    padding: 8px !important;
+}
+/* 
+.menu-item-has-children {
+    background: transparent;
+    cursor: pointer; 
+   
+}
+li.menu-item-has-children:hover .sub-menu {
+             display: block;
+           transition-delay: 30s;
+          
+}
+ */
+
+.extends_img img {
+    height: 540px;
+    width: 100% !important;
+}
+.single_offer img {
+    height: 480px !important;
+}
+.client_img.align-self-center img {
+    width: 450px;
+    height: 600px;
+}
+div#team_member img {
+    width: 360px;
+    height: 460px;
+}
+input.wpcf7-form-control.wpcf7-submit.btn_2.sibscribe-btm {
+  display: block !important;
+margin: 5px auto;}
+
+.about_img img {
+    height: 480px;
+    margin-top: -60px;
+}
+.banner_part .banner_text .banner_text_iner {
+   padding: 60px 70px;
+  
+}
+a.blog_button {
+    background: #fa0347;
+    color: #fff !important;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.comment-form textarea {
+    height: 60px !important;
+    width: 100%;
+    border: 1px solid #d11298; 
+}
+input#author {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #d11298;    
+    padding: 5px;   
+}
+
+input#email {
+
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #d11298;
+    padding: 5px;   
+}
+
+input#url {
+     width: 100%;
+    border-radius: 20px;
+    border: 1px solid #d11298;   
+    padding: 5px;   
+}
+cite.fn, span.says {
+    color: #1318c7;
+    font-weight: bold;
+    font-size: 20px;
+}
+p {
+    color: #000;
+    font-size: 16px;
+}
+label.screen-reader-text {
+    margin-top: 20px;
+}
+input#searchsubmit {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    background: #ff6426;
+    padding: 5px 20px;
+    font-weight: 900;
+    border-radius: 20px;
+    }
+
+.media.post_item img {
+    width: 80px;
+    height: 80px;
+}
+
+.blog_right_sidebar .widget_title {
+    font-size: 30px;
+ 
+}
+
+.tagcloud a.tag-cloud-link {
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 4px 15px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    transition: all 0.3s ease 0s;
+    color: #888888;
+    font-size: 15px;
+}
+
+.tagcloud a.tag-cloud-link:hover {
+background: #fa0347 !important;
+    color: #fff !important;
+}
+
+i.fab {
+    font-size: 20px;
+}
+
+section.review_part.gray_bg.section_padding {
+    padding: 260px 0 130px;
+}
+.course_p {
+    padding: 100px 0 50px !important;
+}
+.sibscribe-area {
+    padding: 50px 0;
+}
+.section_tittle h4 {
+   
+    color: #555555;
+    font-size: 30px;
+    margin-bottom: 23px;
+    font-weight: 600;
+    color: #fa0347;
+    text-transform: uppercase;
+    line-height: 13px;
+
+}
+.single-gallery-image img {
+    margin-top: 30px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 200px;
+    width: 360px;
+}
+.section-top-border h3 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.single-gallery-image .product-bg-overly {
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 0;
+    height: 0;
+    transition: 1.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 16px 0px -10px #fff, -16px 0px 0px -10px #fff, 0px -16px 0px -10px #fff, 16px 0px 0px -10px #fff, 0 0 0 3px #fe6801;
+    top: 43px;
+    left: 0;
+    visibility: hidden;
+}
+.single-gallery-image:hover .product-bg-overly {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+    visibility: visible;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.whole-wrap {
+    padding-bottom: 60px;
+} 
+.product-bg-overly h2 {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+   
+}
+.blog_item_img img {
+    width: 100%;
+    height: 500px;
+}
+.intro_video_icon iframe {
+    width: 450px;
+    height: 377px;
+}
+.col-md-3.left_image img {
+    height: 250px;
+}
+.col-md-3.right_img img {
+    height: 250px !important;
+}
+.mark, mark {
+   
+    background-color: #22cdad !important;
+}
+.review_part .client_review_single .client_review_text {
+   
+    margin-left: 60px;
+}
+
+.blog_left_sidebar {
+  margin: 50px auto;
+}
+.blog_left_sidebar h2 {
+  margin-bottom: 69px;
+}
+/* Search option */
+#searchform {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#searchsubmit {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 50%;
+}
+#s {
+  width: 30%;
+}
+.button-contactForm {
+    width: 100%;
+    font-weight: bold;
+
+}
+/* footer section*/
+.col-xl-3.col-sm-6.col-md-6 {
+    text-align: center;
+}
+#wp-calendar {
+    margin: 0 auto;
+    color: #666;
+}
+
+@media only screen and (max-width: 991px) {
+    .dropdown .sub-menu {
+  transition: all 0.5s;
+  overflow: hidden;
+  transform-origin: top center;
+  transform: scale(1, 0);
+  display: block;
+  margin-top: 45px;
+}
+     .navbar-collapse {
+        
+         padding: 10px;
+    background-color: #25182FCC;
+    border-radius: 5px;
+     }
+     .main_menu .main-menu-item ul li {
+        margin-bottom: 10px;
+     }
+     .extends_member_text a {
+
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+/* About Section */
+.about_img img {
+    height: 350px;
+    margin: 40px auto;
+    display: block;
+}
+
+.flaticon-footwear {
+  text-align: center;
+}
+.single_feature_item {
+  text-align: center;
+}
+.about_us .single_feature_item .feature_item_icon::after {
+  left: 115px;
+}
+}
+@media only screen and (max-width: 768px){
+             .navbar-collapse {
+        
+         padding: 10px;
+    background-color: #25182FCC;
+    border-radius: 5px;
+     }
+     .dropdown .sub-menu {
+  transition: all 0.5s;
+  overflow: hidden;
+  transform-origin: top center;
+  transform: scale(1, 0);
+  display: block;
+  margin-top: 45px;
+}
+
+     .extends_video {
+    display: none;
+    }
+    /*Team Section*/
+ 
+div#team_member img {
+
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+
+}
+/*contat page*/
+.media-body {
+    text-align: center;
+    margin-top: -40px;
+
+}
+}
+@media only screen and (max-width: 415px){
+
+    .banner_part .banner_text .banner_text_iner {
+    padding: 30px 70px;
+}
+
+    #searchsubmit {
+  top: 85px;
+  right: 0;
+  width: 100%;
+}
+#s {
+  width: 100%;
+}
+.single_sidebar_widget.popular_post_widget {
+  display: none;
+}
+.single_sidebar_widget.tag_cloud_widget{
+    display: none;
+}
+.single_sidebar_widget.instagram_feeds {
+    display: none ;
+}
+.single_sidebar_widget.newsletter_widget {
+    display: none;
+}
+}
